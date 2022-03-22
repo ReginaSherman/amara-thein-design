@@ -1,5 +1,5 @@
 import React from 'react'
-import { Box, Image } from '@chakra-ui/react'
+import { Box, Image, Button, Link } from '@chakra-ui/react'
 
 const Resume = () => {
     return (
@@ -8,15 +8,14 @@ const Resume = () => {
                 <Box fontFamily={'Bodoni Moda'} fontSize={'6xl'} fontWeight={'bold'} align={'center'}>
                     <br /> resume
                 </Box>
-                <Box fontFamily={'Raleway'} fontSize={'3xl'} mt={5}>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, <br />
-                    sed do eiusmod tempor incididunt ut labore et dolore magna <br />
-                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation <br />
-                    ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis <br />
-                    aute irure dolor in reprehenderit in voluptate velit esse <br />
-                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat <br />
-                    cupidatat non proident, sunt in culpa qui officia deserunt <br />
-                    mollit anim id est laborum.<br />
+                <Box fontFamily={'Raleway'} fontSize={'3xl'} mt={10} align={'center'}>
+                    <Button
+                        href="https://docs.google.com/document/d/1wv9alj1PFM-ra2frpHLtsu_2Axu7Nh6kkOm5Jq1DnNo/export?format=pdf"
+                        alt="alt text"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        as={Link}
+                    >Click Here To Download My Resume!</Button>
                 </Box>
             </Box>
             <Image alt='illustration' src='Olá - Planting.png' position='relative' h='300px' ml={700} />
