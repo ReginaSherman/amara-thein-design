@@ -1,10 +1,11 @@
 import React from 'react'
-import { Box, Image } from '@chakra-ui/react'
+import { Box, Image, Link } from '@chakra-ui/react'
 const ProjectCard = ({project}) => {
   return (
     <div>
-        <Box>
-          <Image alt={project.title} src={project.image}/>
+        <Box background={'white'} align={'center'} >
+          <Image alt={project.title} src={project.image} />
+          <Link fontFamily={'Bodoni Moda'} fontSize={'xl'} fontWeight={'bold'} href={project.link}>{project.title}</Link>
 
         </Box>
     </div>

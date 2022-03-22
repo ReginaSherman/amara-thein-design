@@ -13,7 +13,7 @@ const Projects = () => {
                     <br /> projects
                 </Box>
                 <Flex>
-                    <SimpleGrid columns={2} spacing={10} width={1000}>
+                    <SimpleGrid columns={2} spacing={10} width={1000} mt={10}>
                         {projects.map(project => {
                             return (
                                 <>

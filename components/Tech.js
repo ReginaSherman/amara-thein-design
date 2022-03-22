@@ -1,5 +1,7 @@
 import React from 'react'
-import { Box, SimpleGrid, Image, Flex } from '@chakra-ui/react'
+import { Box, SimpleGrid, Image, Flex, Link } from '@chakra-ui/react'
+
+
 
 const Tech = () => {
     return (
@@ -8,7 +10,7 @@ const Tech = () => {
                 tech
                 <Flex>
                 <SimpleGrid columns={5} spacing='40px' mt={5}>
-                    <Image alt='JavaScript' src='JavaScript.png' h='20'/>
+                    <Image alt='JavaScript' src='JavaScript.png' h='20' />
                     <Image alt='Next' src='Next.png' h='20'/>
                     <Image alt='React' src='React.png' h='20'/>
                     <Image alt='Python' src='Python.png' h='20'/>
