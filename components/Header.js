@@ -17,7 +17,8 @@ const Header = () => {
                             }}
                             fontFamily='Bodoni Moda'
                             fontSize='2xl'
-                            href='#home'>
+                            href='#home'
+                            ml={[6, 6, 0, 0]}>
                             home
                         </Link>
                         <Link

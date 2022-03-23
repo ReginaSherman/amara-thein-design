@@ -8,7 +8,7 @@ import ProjectCard from './ProjectCard'
 const Projects = () => {
     return (
         <div id='projects'>
-            <Box mt={[32, 32, 0, 0]}>
+            <Box mt={[0, 0, 0, 0]}>
                 <Box fontFamily={'Bodoni Moda'} fontSize={'6xl'} fontWeight={'bold'} align={'center'}>
                     <br /> projects
                 </Box>

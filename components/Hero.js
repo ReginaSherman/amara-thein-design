@@ -1,6 +1,6 @@
 import React from 'react'
 import { Box, Image, Flex } from '@chakra-ui/react'
-
+import Socials from './Socials'
 
 const Hero = () => {
     return (
@@ -11,8 +11,9 @@ const Hero = () => {
                     <Box fontFamily={'Bodoni Moda'} fontSize={['2xl', '2xl', '3xl', '3xl']}>
                         &quot;a full-stack software engineer with a focus on front-end <br />
                         development and creating beautiful, intuitive user experiences&quot;
+                    <Socials />
                     </Box>
-                    <Image alt='illustration' src='Olá - Relaxing (1).png' mt={75} w='700px' />
+                    <Image alt='illustration' src='Olá - Relaxing (1).png' mt={42} w='700px' />
                 </Box>
             </Box>
         </div>
