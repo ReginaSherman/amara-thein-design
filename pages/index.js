@@ -10,7 +10,7 @@ import Resume from '../components/Resume'
 export default function Home() {
   return (
     <Box bg='#FFFAEF'>
-      <Box m={[5, 5, 0, 0]}>
+      <Box m={[5, 5, 0, 0]} mt={[0, 0, 0, 0]}>
         <Header /> <br />
         <Flex justify='center' >
           <Hero />

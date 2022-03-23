@@ -6,8 +6,8 @@ const Header = () => {
     return (
         <>
             <Box >
-                <Flex minH={['40px', '40px', '60px', '60px']} position='fixed' bg='#FFFAEF' w='1200px'>
-                    <Stack direction={'row'} spacing={10} m={5}>
+                <Flex minH={['40px', '40px', '60px', '60px']} position='fixed' bg='#FFFAEF' w={1200}>
+                    <Stack direction={'row'} spacing={[1, 1, 10, 10]} mt={0, 0, 5, 5} m={[0, 0, 5, 5]}>
                         <Link
                             p={2}
                             fontWeight={500}
