@@ -17,7 +17,7 @@ const Resume = () => {
                         target="_blank"
                         rel="noopener noreferrer"
                         as={Link}
-                    >Click Here To Download My Resumé!</Button>
+                    >Click Here To Download!</Button>
                 </Box>
             </Box>
             <Image alt='illustration' src='Olá - Planting.png' position='relative' h='300px' ml={[null, null, 700, 700]} />

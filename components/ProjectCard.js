@@ -5,7 +5,7 @@ const ProjectCard = ({project}) => {
     <div>
         <Box background={'white'} align={'center'} >
           <Image alt={project.title} src={project.image} />
-          <Link fontFamily={'Bodoni Moda'} fontSize={'xl'} fontWeight={'bold'} href={project.link}>{project.title}</Link>
+          <Link fontFamily={'Bodoni Moda'} fontSize={'xl'} fontWeight={'bold'} href={project.link} target='_blank'>{project.title}</Link>
 
         </Box>
     </div>
