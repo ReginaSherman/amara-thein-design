@@ -5,7 +5,7 @@ import Socials from './Socials'
 const Hero = () => {
     return (
         <div id='home' >
-            <Box mt={[14, 14, 0, 0]}>
+            <Box mt={[14, 14, 0, 0]} h={850}>
                 <Box fontFamily={'Bodoni Moda'} fontSize={['4xl', '4xl', '6xl', '6xl']} fontWeight={'bold'} align={'center'}>
                     <br /> regina sherman
                     <Box fontFamily={'Bodoni Moda'} fontSize={['2xl', '2xl', '3xl', '3xl']}>

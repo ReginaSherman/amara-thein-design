@@ -4,7 +4,7 @@ import { Box, Image, Button, Link } from '@chakra-ui/react'
 const Resume = () => {
     return (
         <div id='resume'>
-            <Box>
+            <Box h={850}>
                 <Box fontFamily={'Bodoni Moda'} fontSize={'6xl'} fontWeight={'bold'} align={'center'}>
                     <br /> resumé
                 </Box>
@@ -19,8 +19,8 @@ const Resume = () => {
                         as={Link}
                     >Click Here To Download!</Button>
                 </Box>
-            </Box>
             <Image alt='illustration' src='Olá - Planting.png' position='relative' h='300px' ml={[null, null, 700, 700]} />
+            </Box>
 
 
         </div>
