@@ -9,7 +9,7 @@ const Tech = () => {
             <Box fontFamily={'Bodoni Moda'} fontSize={'6xl'} fontWeight={'bold'} align={'center'} mt={10}>
                 tech
                 <Flex>
-                <SimpleGrid columns={5} spacing='40px' mt={5}>
+                <SimpleGrid columns={[3, 3, 5, 5]} spacing='10px' mt={5}>
                     <Image alt='JavaScript' src='JavaScript.png' h='20' />
                     <Image alt='Next' src='Next.png' h='20'/>
                     <Image alt='React' src='React.png' h='20'/>

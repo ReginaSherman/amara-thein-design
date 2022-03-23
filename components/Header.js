@@ -6,7 +6,7 @@ const Header = () => {
     return (
         <>
             <Box >
-                <Flex minH={'60px'} position='fixed' bg='#FFFAEF' w='1200px'>
+                <Flex minH={['40px', '40px', '60px', '60px']} position='fixed' bg='#FFFAEF' w='1200px'>
                     <Stack direction={'row'} spacing={10} m={5}>
                         <Link
                             p={2}
@@ -54,7 +54,7 @@ const Header = () => {
                             fontFamily='Bodoni Moda'
                             fontSize='2xl'
                             href='#resume'>
-                            resume
+                            resumé
                         </Link>
                     </Stack>
                 </Flex>

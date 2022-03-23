@@ -8,12 +8,12 @@ import ProjectCard from './ProjectCard'
 const Projects = () => {
     return (
         <div id='projects'>
-            <Box h='1000px'>
+            <Box mt={[32, 32, 0, 0]}>
                 <Box fontFamily={'Bodoni Moda'} fontSize={'6xl'} fontWeight={'bold'} align={'center'}>
                     <br /> projects
                 </Box>
                 <Flex>
-                    <SimpleGrid columns={2} spacing={10} width={1000} mt={10}>
+                    <SimpleGrid columns={[1, 1, 2, 2]} spacing={10} width={[400, 400, 1000, 1000]} mt={10}>
                         {projects.map(project => {
                             return (
                                 <>
