@@ -10,7 +10,7 @@ const Projects = () => {
         <div id='projects'>
             <Box mt={[0, 0, 0, 0]}>
                 <Box fontFamily={'Bodoni Moda'} fontSize={'6xl'} fontWeight={'bold'} align={'center'}>
-                    <br /> projects
+                    <br /> Projects
                 </Box>
                 <Flex>
                     <SimpleGrid columns={1} spacing={10} w={[400, 400, 800, 800]} mt={10}>

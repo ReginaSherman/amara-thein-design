@@ -1,13 +1,13 @@
 import React from 'react'
 import { Box, Flex, Stack, Image } from '@chakra-ui/react'
-
+import "@fontsource/roboto"
 
 const About = () => {
     return (
         <div id='about'>
             <Box mt={[5, 5, 0, 0]}>
                 <Box fontFamily={'Bodoni Moda'} fontSize={'6xl'} fontWeight={'bold'} align={'center'}>
-                    <br /> about me
+                    <br /> About Me
                     <Image
                         borderRadius='full'
                         boxSize='200px'
@@ -17,7 +17,7 @@ const About = () => {
                         alt='headshot'
                     />
                 </Box>
-                <Box fontFamily='Raleway' fontSize='2xl' mt={5} align={'center'}>
+                <Box fontFamily='Roboto' fontSize='2xl' mt={5} align={'center'}>
                     I’m someone who is very committed to my work and my team, <br />
                     and puts all of myself into it. I’m looking for a place  <br />
                     to learn and grow in my new skills. I want to make technology <br />

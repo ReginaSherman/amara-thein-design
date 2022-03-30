@@ -7,7 +7,7 @@ const Tech = () => {
     return (
         <div id='tech'>
             <Box fontFamily={'Bodoni Moda'} fontSize={'6xl'} fontWeight={'bold'} align={'center'} mt={10}>
-                tech
+                Tech
                 <Flex>
                     <SimpleGrid columns={[3, 3, 5, 5]} spacing='10px' mt={5}>
                         <Image alt='JavaScript' src='JavaScript.png' h='20' />

@@ -2,6 +2,7 @@ import React from 'react'
 import { Box, Flex, Text, IconButton, Button, Stack, Collapse, Icon, Link } from '@chakra-ui/react'
 import "@fontsource/bodoni-moda"
 
+
 const Header = () => {
     return (
         <>
@@ -15,11 +16,11 @@ const Header = () => {
                                 textDecoration: 'none',
                                 color: '#6e8069',
                             }}
-                            fontFamily='Bodoni Moda'
-                            fontSize='2xl'
+                            fontFamily='Roboto'
+                            fontSize={['xl', 'xl', '2xl', '2xl']}
                             href='#home'
                             ml={[6, 6, 0, 0]}>
-                            home
+                            HOME
                         </Link>
                         <Link
                             p={2}
@@ -28,10 +29,10 @@ const Header = () => {
                                 textDecoration: 'none',
                                 color: '#6e8069',
                             }}
-                            fontFamily='Bodoni Moda'
-                            fontSize='2xl'
+                            fontFamily='Roboto'
+                            fontSize={['xl', 'xl', '2xl', '2xl']}
                             href='#about'>
-                            about
+                            ABOUT
                         </Link>
                         <Link
                             p={2}
@@ -40,10 +41,10 @@ const Header = () => {
                                 textDecoration: 'none',
                                 color: '#6e8069',
                             }}
-                            fontFamily='Bodoni Moda'
-                            fontSize='2xl'
+                            fontFamily='Roboto'
+                            fontSize={['xl', 'xl', '2xl', '2xl']}
                             href='#projects'>
-                            projects
+                            PROJECTS
                         </Link>
                         <Link
                             p={2}
@@ -52,13 +53,15 @@ const Header = () => {
                                 textDecoration: 'none',
                                 color: '#6e8069',
                             }}
-                            fontFamily='Bodoni Moda'
-                            fontSize='2xl'
+                            fontFamily='Roboto'
+                            fontSize={['xl', 'xl', '2xl', '2xl']}
                             href='#resume'>
-                            resumé
+                            RESUME
                         </Link>
+                        
                     </Stack>
                 </Flex>
+                
             </Box>
         </>
     )
