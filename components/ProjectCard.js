@@ -20,11 +20,11 @@ const ProjectCard = ({ project }) => {
         </Box>
         <Box
           maxW={600}
-          fontFamily={'Raleway'}>
+          fontFamily={'Roboto'}>
           {project.subTitle}
         </Box>
         <Box
-          fontFamily={'Raleway'}
+          fontFamily={'Roboto'}
           fontStyle={'italic'}>
           Tech Used: {project.labels}
         </Box>
