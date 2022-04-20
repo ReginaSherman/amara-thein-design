@@ -20,12 +20,10 @@ const Resume = () => {
                     >Click Here To Download!</Button>
                 </Box>
                 <Box mt={10}>
-                        <Socials />
+                    <Socials />
                 </Box>
-            <Image alt='illustration' src='Olá - Planting.png' position='relative' h='300px' ml={[null, null, 700, 700]} />
+                <Image alt='illustration' src='Olá - Planting.png' position='relative' h='300px' ml={[null, null, 700, 700]} />
             </Box>
-
-
         </div>
 
     )

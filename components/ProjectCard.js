@@ -1,16 +1,17 @@
 import React from 'react'
-import { Box, Image, Link } from '@chakra-ui/react'
+import { Box, Image, Link, Button } from '@chakra-ui/react'
 import { projects } from '../public/constants/projects'
 const ProjectCard = ({ project }) => {
   return (
     <div>
       <Box align={'center'}>
         <Link
-          href={project.link}
+          href={project.gitLink}
           target='_blank'>
           <Image
             alt={project.title}
-            src={project.image} />
+            src={project.image}
+            />
         </Link><br />
         <Box
           fontFamily={'Bodoni Moda'}
@@ -28,7 +29,26 @@ const ProjectCard = ({ project }) => {
           fontStyle={'italic'}>
           Tech Used: {project.labels}
         </Box>
-
+        <Button
+          m={5}
+          bg='#6e8069'
+          color='#FFFAEF'
+          href={project.gitLink}
+          alt="alt text"
+          target="_blank"
+          rel="noopener noreferrer"
+          as={Link}
+        >GitHub Repo</Button>
+        <Button
+          m={5}
+          bg='#6e8069'
+          color='#FFFAEF'
+          href={project.deployedLink}
+          alt="alt text"
+          target="_blank"
+          rel="noopener noreferrer"
+          as={Link}
+        >Deployed App</Button>
       </Box>
     </div>
   )
