@@ -4,6 +4,7 @@ import Image from 'next/image'
 import '@fontsource/montserrat-alternates'
 
 import bg from '../public/at-designs-hero.jpg'
+import otter from '../public/Otter White (1).svg'
 
 const Hero = () => {
   return (
@@ -21,9 +22,10 @@ const Hero = () => {
             position: 'relative',
           }}
         ></div>
-        <h1 className='hero__txt'>
-          <strong className='strong'>amarathein</strong>designs
-        </h1>
+        <div className='hero__container-txt'>
+            <Image src={otter} width={200} height={200}/>
+          <h1><strong className='strong'>AmaraUtter</strong>Designs</h1>
+        </div>
       </div>
     </div>
   )

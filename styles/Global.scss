@@ -11,20 +11,27 @@
             background-position: center;
             background-repeat: no-repeat;
         }
-    }
 
-    &__txt {
-        position: absolute;
+        &-txt {
+            position: absolute;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
 
-        font-family: "Montserrat Alternates";
-        font-size: 90px;
-        font-weight: 100;
-        color: #faf9f6;
-        margin: 0 auto;
-        animation: fadeInUp 2s linear;
+            font-family: "Montserrat Alternates";
+            font-size: 48px;
+            color: #faf9f6;
+            margin: 0 auto;
+            animation: fadeInUp 2s linear;
 
-        .strong {
-            font-weight: 800;
+            h1 {
+                font-weight: 100;
+                margin: 0;
+
+                strong {
+                    font-weight: 600;
+                }
+            }
         }
     }
 
@@ -39,30 +46,86 @@
 
 .about {
     &__container {
+        position: absolute;
         width: 100vw;
         height: 100vh;
 
         display: flex;
-        justify-content: center;
+        justify-content: space-between;
         align-items: center;
 
-        &-img {
+        &-bg {
+            position: relative;
             background-attachment: fixed;
             background-position: center;
             background-repeat: no-repeat;
         }
-    }
+        &-txt {
+            position: absolute;
+            display: flex;
+            font-family: "Montserrat Alternates";
+            color: rgb(15, 20, 7);
+            font-size: 115px;
+            margin: 0 auto;
+        }
 
-    &__txt {
-        position: absolute;
-        font-family: "Montserrat Alternates";
-        color: rgb(15, 20, 7);
-        font-size: 115px;
-        margin: 0 auto;
+        .headshot-container {
+            position: relative;
+
+
+        }
     }
 }
 
 .projects {
+    &__container {
+        width: 100vw;
+        height: 100vh;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-color: #0f1407;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        .swiper-wrapper {
+            // position: absolute;
+            padding: 50px;
+
+            .swiper-slide {
+                display: block;
+                justify-content: center;
+                align-items: center;
+                opacity: 0.5;
+                &:hover {
+                    opacity: 1;
+                    transform: scale(1.1);
+                    transition: 1s ease-out;
+                }
+            }
+
+            .swiper-button-prev,
+            .swiper-button-next {
+                content: "";
+                position: absolute;
+                background-color: white;
+                height: 500px;
+                width: 500px;
+            }
+        }
+
+        &-txt {
+            color: #faf9f6;
+            font-size: 48px;
+        }
+    }
+}
+
+.contact {
     &__container {
         width: 100vw;
         height: 100vh;
@@ -76,40 +139,13 @@
         justify-content: center;
         align-items: center;
 
-        .swiper-wrapper {
-            position: relative;
-            .swiper-slide {
-                
-                display: flex;
-                justify-content: center;
-                align-items: center;
-
-                background-color: #0f1407;
-                margin-right: 0;
-                width: 100vw;
-                // margin: 100px;
-            }
-
-            .slide-txt {
-                font-size: 80px;
-                color: #faf9f6;
-            }
-
-            .swiper-button-prev, .swiper-button-next {
-                content: "";
-                position: absolute;
-                background-color: white;
-                height: 500px;
-                width: 500px;
-            }
+        &-txt {
+            position: absolute;
+            font-family: "Montserrat Alternates";
+            color: rgb(15, 20, 7);
+            font-size: 48px;
+            margin: 0 auto;
         }
-    }
-
-    &__txt {
-        font-family: "Montserrat Alternates";
-        color: #faf9f6;
-        font-size: 48px;
-        margin: 0 auto;
     }
 }
 @keyframes fadeInUp {
