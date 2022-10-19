@@ -1,36 +1,31 @@
 import React from 'react'
-import { Box, Flex, Stack, Image } from '@chakra-ui/react'
-import "@fontsource/roboto"
+import '@fontsource/roboto'
+
+import bg from '../public/pexels-eva-bronzini-7641303.jpg'
 
 const About = () => {
-    return (
-        <div id='about'>
-            <Box mt={[5, 5, 0, 0]}>
-                <Box fontFamily={'Bodoni Moda'} fontSize={'6xl'} fontWeight={'bold'} align={'center'}>
-                    <br /> About Me
-                    <Image
-                        borderRadius='full'
-                        boxSize='200px'
-                        fit='cover'
-                        // border='4px'
-                        src='sunflowers.png'
-                        alt='headshot'
-                    />
-                </Box>
-                <Box fontFamily='Roboto' fontSize='2xl' mt={5} align={'center'}>
-                    I’m someone who is very committed to my work and my team, <br />
-                    and puts all of myself into it. I’m looking for a place  <br />
-                    to learn and grow in my new skills. I want to make technology <br />
-                    more accessible and straight-forward for the average person. <br /> 
-                    Because of my interest in and understanding of design, <br/>
-                    I can bridge the gap between developers and UI designers <br />
-                    to form a cohesive front-end team. 
-                </Box>
-
-            </Box>
+  return (
+    <div id='about' className='about'>
+      <div className='about__container'>
+        <div
+          className='about__container-img'
+          style={{
+            backgroundImage: `url(${bg.src})`,
+            backgroundColor: 'rgba(250, 249, 246, 0.65)',
+            backgroundBlendMode: 'multiply',
+            backgroundSize: 'cover',
+            width: '100vw',
+            height: '100vh',
+            position: 'relative',
+            opacity: '0.3'
+          }}
+        ></div>
+        <div className='about__txt'>
+          <h2>About Me</h2>
         </div>
-
-    )
+      </div>
+    </div>
+  )
 }
 
 export default About

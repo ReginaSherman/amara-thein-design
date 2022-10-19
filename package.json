@@ -9,13 +9,8 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@chakra-ui/icons": "^1.1.7",
-    "@chakra-ui/image": "^1.1.8",
-    "@chakra-ui/react": "^1.8.6",
-    "@chakra-ui/theme": "^1.14.0",
-    "@emotion/react": "^11.8.2",
-    "@emotion/styled": "^11.8.1",
-    "@fontsource/bodoni-moda": "^4.5.2",
+    "@fontsource/montserrat": "^4.5.13",
+    "@fontsource/montserrat-alternates": "^4.5.11",
     "@fontsource/roboto": "^4.5.5",
     "focus-visible": "^5.2.0",
     "framer-motion": "^7.6.1",
@@ -23,6 +18,9 @@
     "react": "17.0.2",
     "react-dom": "17.0.2",
     "react-icons": "^4.3.1",
+    "sass": "^1.55.0",
+    "simple-parallax-js": "^5.6.2",
+    "swiper": "^8.4.4",
     "zenscroll": "^4.0.2"
   },
   "devDependencies": {

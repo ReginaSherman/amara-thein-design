@@ -1,23 +1,34 @@
 import React from 'react'
-import { Box, Image, Flex } from '@chakra-ui/react'
+import Image from 'next/image'
+
+import '@fontsource/montserrat-alternates'
+
+import bg from '../public/at-designs-hero.jpg'
 
 const Hero = () => {
-    return (
-        <div id='home' >
-            <Box mt={[14, 14, 0, 0]} h={675}>
-                <Box fontFamily={'Bodoni Moda'} fontSize={['4xl', '4xl', '6xl', '6xl']} fontWeight={'bold'} align={'center'}>
-                    <br /> Regina Sherman
-                    <Box mt={10} fontFamily={'Roboto'} fontWeight='light' fontSize={['2xl', '2xl', '3xl', '3xl']}>
-                        &quot;a full-stack software engineer with a focus on front-end <br />
-                        development and creating beautiful, intuitive user experiences&quot;
-                    
-                    </Box>
-                    <Image alt='illustration' src='Olá - Relaxing (1).png' mt={5} w='700px' />
-                </Box>
-            </Box>
-        </div>
-
-    )
+  return (
+    <div id='hero' className='hero'>
+      <div className='hero__container'>
+        <div
+          className='hero__container-img'
+          style={{
+            backgroundImage: `url(${bg.src})`,
+            backgroundColor: 'rgba(0, 0, 0, 0.65)',
+            backgroundBlendMode: 'multiply',
+            backgroundSize: 'cover',
+            width: '100vw',
+            height: '100vh',
+            position: 'relative',
+          }}
+        ></div>
+        <h1 className='hero__txt'>
+          <strong className='strong'>amarathein</strong>designs
+        </h1>
+      </div>
+    </div>
+  )
 }
-
 export default Hero
+
+{
+}

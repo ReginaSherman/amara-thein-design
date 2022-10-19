@@ -1,10 +1,9 @@
 import React from 'react'
-import { Box, Image, Button, Link } from '@chakra-ui/react'
 import Socials from './Socials'
 const Resume = () => {
     return (
         <div id='resume'>
-            <Box h={750}>
+            {/* <Box h={750}> 
                 <Box fontFamily={'Bodoni Moda'} fontSize={'6xl'} fontWeight={'bold'} align={'center'}>
                     <br /> Resumé
                 </Box>
@@ -23,7 +22,7 @@ const Resume = () => {
                     <Socials />
                 </Box>
                 <Image alt='illustration' src='Olá - Planting.png' position='relative' h='300px' ml={[null, null, 700, 700]} />
-            </Box>
+            </Box> */}
         </div>
 
     )

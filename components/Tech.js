@@ -1,12 +1,12 @@
 import React from 'react'
-import { Box, SimpleGrid, Image, Flex, Link } from '@chakra-ui/react'
+
 
 
 
 const Tech = () => {
     return (
         <div id='tech'>
-            <Box fontFamily={'Bodoni Moda'} fontSize={'6xl'} fontWeight={'bold'} align={'center'} mt={10}>
+            {/* <Box fontFamily={'Bodoni Moda'} fontSize={'6xl'} fontWeight={'bold'} align={'center'} mt={10}>
                 Tech
                 <Flex>
                     <SimpleGrid columns={[3, 3, 5, 5]} spacing='10px' mt={5}>
@@ -24,7 +24,7 @@ const Tech = () => {
                 </Flex>
 
 
-            </Box>
+            </Box> */}
         </div>
 
     )

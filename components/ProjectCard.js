@@ -1,10 +1,9 @@
 import React from 'react'
-import { Box, Image, Link, Button } from '@chakra-ui/react'
 import { projects } from '../public/constants/projects'
 const ProjectCard = ({ project }) => {
   return (
     <div>
-      <Box align={'center'}>
+      {/* <Box align={'center'}>
         <Link
           href={project.gitLink}
           target='_blank'>
@@ -49,7 +48,7 @@ const ProjectCard = ({ project }) => {
           rel="noopener noreferrer"
           as={Link}
         >Deployed App</Button>
-      </Box>
+      </Box> */}
     </div>
   )
 }

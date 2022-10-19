@@ -1,13 +1,13 @@
 import React from 'react'
-import { Box, Flex, Text, IconButton, Button, Stack, Collapse, Icon, Link } from '@chakra-ui/react'
-import "@fontsource/bodoni-moda"
+
+
 
 
 const Header = () => {
     return (
         <>
-            <Box >
-                <Flex minH={['40px', '40px', '60px', '60px']} position='fixed' bg='#FFFAEF' w={1200}>
+            {/* <Box >
+                <Flex minH={['40px', '40px', '60px', '60px']} position='fixed' bg='#FFFFF' w={'100vw'} justifyContent={'end'}>
                     <Stack direction={'row'} spacing={[1, 1, 10, 10]} mt={[0, 0, 5, 5]} m={[0, 0, 5, 5]}>
                         <Link
                             p={2}
@@ -57,12 +57,10 @@ const Header = () => {
                             fontSize={['xl', 'xl', '2xl', '2xl']}
                             href='#resume'>
                             RESUME
-                        </Link>
-                        
+                        </Link> 
                     </Stack>
                 </Flex>
-                
-            </Box>
+            </Box> */}
         </>
     )
 }

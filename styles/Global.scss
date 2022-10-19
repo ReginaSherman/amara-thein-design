@@ -1,0 +1,132 @@
+.hero {
+    z-index: -1;
+
+    &__container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        &-img {
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+    }
+
+    &__txt {
+        position: absolute;
+
+        font-family: "Montserrat Alternates";
+        font-size: 90px;
+        font-weight: 100;
+        color: #faf9f6;
+        margin: 0 auto;
+        animation: fadeInUp 2s linear;
+
+        .strong {
+            font-weight: 800;
+        }
+    }
+
+    // &:after {
+    //     content: '';
+    //     position: absolute;
+    //     width: 100vw;
+    //     height: 100vw;
+    //     background-color: black;
+    // }
+}
+
+.about {
+    &__container {
+        width: 100vw;
+        height: 100vh;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        &-img {
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+    }
+
+    &__txt {
+        position: absolute;
+        font-family: "Montserrat Alternates";
+        color: rgb(15, 20, 7);
+        font-size: 115px;
+        margin: 0 auto;
+    }
+}
+
+.projects {
+    &__container {
+        width: 100vw;
+        height: 100vh;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        .swiper-wrapper {
+            position: relative;
+            .swiper-slide {
+                
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                background-color: #0f1407;
+                margin-right: 0;
+                width: 100vw;
+                // margin: 100px;
+            }
+
+            .slide-txt {
+                font-size: 80px;
+                color: #faf9f6;
+            }
+
+            .swiper-button-prev, .swiper-button-next {
+                content: "";
+                position: absolute;
+                background-color: white;
+                height: 500px;
+                width: 500px;
+            }
+        }
+    }
+
+    &__txt {
+        font-family: "Montserrat Alternates";
+        color: #faf9f6;
+        font-size: 48px;
+        margin: 0 auto;
+    }
+}
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        -webkit-transform: translate3d(0, 30%, 0);
+        transform: translate3d(0, 30%, 0);
+    }
+
+    to {
+        opacity: 1;
+        -webkit-transform: none;
+        transform: none;
+    }
+}
+
+.fadeInUp {
+    -webkit-animation-name: fadeInUp;
+    animation-name: fadeInUp;
+}
