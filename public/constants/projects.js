@@ -1,35 +1,44 @@
 export const projects = [
-    {
-        labels: 'Next.js, Prisma, PostgreSQL, Chakra UI',
-        gitLink: 'https://github.com/ReginaSherman/communitycloset',
-        deployedLink: 'https://communitycloset.vercel.app/',
-        subTitle: 'A social media for sharing clothes within a small group of friends',
-        title: 'divvy',
-        image: 'divvy.png'
+  {
+    title: 'Branding',
+    samples: {
+      sample1: {
+        image: '/key-images/Agent Branding - key image.jpg',
+        link:
+          'https://drive.google.com/file/d/1rrob9ZL2ukfJ2DKgccePl90DhMRV2Qr8/view?usp=sharing',
+      },
+      sample2: {
+        image: '/key-images/GIH - Key Image.jpg',
+        link:
+          'https://drive.google.com/file/d/10B65rZsnDyAgNcugj3aPioDc9PiTe52C/view?usp=sharing',
+      },
+      sample3: {
+        image: '/key-images/Ringer Golf - Key image.jpg',
+        link:
+          'https://drive.google.com/file/d/1dvt19gw68fxPeVAUbzIJPf9IOxdo1P4s/view?usp=sharing',
+      }
     },
-    {
-        labels: 'React, Express, Mongoose, Node, Reactstrap',
-        gitLink: 'https://github.com/ReginaSherman/airpods_frontend',
-        deployedLink: 'https://teamairapp.herokuapp.com/',
-        subTitle: 'This app is designed to allow users to sign-up for an account and then browse random podcasts from Spotify\'s database, and also search Spotify\'s database by podcast title in order to find information about and listen to podcasts.',
-        title: 'podcast-searcher',
-        image: 'Airpods.png'
+    key: 1,
+  },
+  {
+    title: 'Booklets',
+    samples: {
+      sample1: {
+        image: '/key-images/Castle book - key image.jpg',
+        link:
+          'https://drive.google.com/file/d/11UEztw2cOjQBwUy8rhaLf6Q4Et3mBDuM/view?usp=sharing'
+      },
+      sample2: {
+        image: '/key-images/Real Estate - Key Image.jpg',
+        link:
+          'https://drive.google.com/file/d/1ttJ26ghe5yW9711vTvZuc_5RR98wmCZk/view?usp=sharing'
+      },
+      sample3: {
+        image: '/key-images/Prelisting Book - Key Image.jpg',
+        link:
+          'https://drive.google.com/file/d/15fzZIX41ZgVbPw73qdviRE0E2WgXu5TV/view?usp=sharing'
+      }
     },
-    {
-        labels: 'JavaScript, HTML, CSS, React, Reactstrap',
-        gitLink: 'https://github.com/ReginaSherman/AIC-project',
-        deployedLink: 'https://optimistic-lumiere-b7864c.netlify.app/',
-        subTitle: 'A simple way for people who enjoy art to view and learn more about certain pieces. It pulls various art from the Art Institute of Chicago, allows user to click and view larger as well as see more information about that particular piece',
-        title: 'artem-art-viewer',
-        image: 'Artem.png'
-    },
-    {
-        labels: 'JavaScript, HTML, CSS',
-        gitLink: 'https://github.com/ReginaSherman/mancala-project',
-        deployedLink: 'https://reginasherman.github.io/mancala-project/',
-        subTitle: 'A version of the game mancala created with JavaScript, HTML, and CSS',
-        title: 'mancala',
-        image: 'Mancala.png'
-    },
-    
-];
+    key: 2,
+  },
+]

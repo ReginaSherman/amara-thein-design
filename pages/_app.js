@@ -1,5 +1,5 @@
+import '../styles/main.scss'
 import '../styles/globals.css'
-import '../styles/Global.scss'
 import 'swiper/scss'
 
 import '@fontsource/montserrat-alternates'

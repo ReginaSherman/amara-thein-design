@@ -1,168 +1,69 @@
-.hero {
-    z-index: -1;
+.container {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: $dark-green;
 
-    &__container {
-        display: flex;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-wrapper {
+    position: relative;
+    padding: 50px;
+
+    .swiper-slide {
+        position: relative;
+        display: block;
         justify-content: center;
         align-items: center;
+        padding: 50px;
 
-        &-img {
-            background-attachment: fixed;
-            background-position: center;
-            background-repeat: no-repeat;
-        }
-
-        &-txt {
-            position: absolute;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-
-            font-family: "Montserrat Alternates";
-            font-size: 48px;
-            color: #faf9f6;
-            margin: 0 auto;
-            animation: fadeInUp 2s linear;
-
-            h1 {
-                font-weight: 100;
-                margin: 0;
-
-                strong {
-                    font-weight: 600;
-                }
-            }
+        &:hover {
+            opacity: 1;
+            transform: scale(1.1);
+            transition: 1s ease-out;
         }
     }
 
-    // &:after {
-    //     content: '';
-    //     position: absolute;
-    //     width: 100vw;
-    //     height: 100vw;
-    //     background-color: black;
-    // }
-}
-
-.about {
-    &__container {
+    .swiper-button-prev,
+    .swiper-button-next {
+        content: "";
         position: absolute;
-        width: 100vw;
-        height: 100vh;
-
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-
-        &-bg {
-            position: relative;
-            background-attachment: fixed;
-            background-position: center;
-            background-repeat: no-repeat;
-        }
-        &-txt {
-            position: absolute;
-            display: flex;
-            font-family: "Montserrat Alternates";
-            color: rgb(15, 20, 7);
-            font-size: 115px;
-            margin: 0 auto;
-        }
-
-        .headshot-container {
-            position: relative;
-
-
-        }
+        background-color: white;
+        height: 500px;
+        width: 500px;
     }
 }
 
-.projects {
-    &__container {
-        width: 100vw;
-        height: 100vh;
-        background-attachment: fixed;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-color: #0f1407;
+h2 {
+    font-size: 48px;
 
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
+    &.white {
+        color: $off-white;
+    }
 
-        .swiper-wrapper {
-            // position: absolute;
-            padding: 50px;
-
-            .swiper-slide {
-                display: block;
-                justify-content: center;
-                align-items: center;
-                opacity: 0.5;
-                &:hover {
-                    opacity: 1;
-                    transform: scale(1.1);
-                    transition: 1s ease-out;
-                }
-            }
-
-            .swiper-button-prev,
-            .swiper-button-next {
-                content: "";
-                position: absolute;
-                background-color: white;
-                height: 500px;
-                width: 500px;
-            }
-        }
-
-        &-txt {
-            color: #faf9f6;
-            font-size: 48px;
-        }
+    &.green {
+        color: $dark-green;
     }
 }
 
-.contact {
-    &__container {
-        width: 100vw;
-        height: 100vh;
-        background-attachment: fixed;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
+h3 {
+    font-size: 24px;
+    padding: 0 200px;
+    text-align: center;
 
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-
-        &-txt {
-            position: absolute;
-            font-family: "Montserrat Alternates";
-            color: rgb(15, 20, 7);
-            font-size: 48px;
-            margin: 0 auto;
-        }
-    }
-}
-@keyframes fadeInUp {
-    from {
-        opacity: 0;
-        -webkit-transform: translate3d(0, 30%, 0);
-        transform: translate3d(0, 30%, 0);
+    &.white {
+        color: $off-white;
     }
 
-    to {
-        opacity: 1;
-        -webkit-transform: none;
-        transform: none;
+    &.green {
+        color: $dark-green;
     }
-}
-
-.fadeInUp {
-    -webkit-animation-name: fadeInUp;
-    animation-name: fadeInUp;
 }

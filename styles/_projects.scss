@@ -1,0 +1,31 @@
+.project-txt {
+    text-align: center;
+}
+
+.project-samples {
+    display: flex;
+    flex: 0 1 auto;
+    justify-content: space-evenly;
+    padding: 25px;
+
+
+    &__card {
+        position: relative;
+        width: 30vw;
+
+
+        img {
+            max-width: none;
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
+            filter: grayscale(100%);
+
+            &:hover {
+                filter: drop-shadow(0px 6px 20px rgba(0, 0, 0, 0.5));
+                transform:translateY(-10px);
+                transition: 0.5s ease-in;
+            }
+        }
+    }
+}
