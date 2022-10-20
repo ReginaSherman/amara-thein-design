@@ -12,7 +12,7 @@ export default function Home () {
   return (
     <>
       <Head>
-        <title>Amara Utter</title>
+        <title>Amara Utter Design</title>
         <meta property='og:title' content='Amara Utter' key='title' />
         <link rel="shortcut icon" href="/favicon.ico" />
       </Head>

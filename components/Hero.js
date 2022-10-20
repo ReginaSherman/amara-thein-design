@@ -7,6 +7,7 @@ import bg from '../public/pexels-kseniya-lapteva-9176101.jpg'
 import otter from '../public/Otter White (1).svg'
 
 const Hero = () => {
+  
   return (
     <div id='hero' className='hero'>
       <div className='hero__container'>
@@ -14,7 +15,7 @@ const Hero = () => {
           className='hero__container-img'
           style={{
             backgroundImage: `url(${bg.src})`,
-            backgroundColor: 'rgba(0, 0, 0, 0.45)',
+            backgroundColor: 'rgba(0, 0, 0, 0.65)',
             backgroundBlendMode: 'multiply',
             backgroundSize: 'cover',
             width: '100vw',

@@ -16,12 +16,12 @@ const About = () => {
           <h2>About Me</h2>
           <h3>
             Hello, I’m Amara (uh-mar-ah)! I’ve been in the graphic design world
-            for 7+ years, forging this career one illustrator file at a time,
+            for 7+ years, forging this career one Illustrator file at a time,
             while diving headfirst into a wide range of creative pursuits my
             whole life. I’ve treasured hobbies and job opportunities in theater,
-            teaching, music, art, photography, videography–I love seeing
+            teaching, music, art, photography, videography – I love seeing
             something amazing come to life no matter which form it takes. I
-            believe life has a lot of joy out there for us to find.{' '}
+            believe life has a lot of joy out there for us to find.
           </h3>
           <h3>
             Armed with a writing degree, I started down the publishing path, but
@@ -38,15 +38,43 @@ const About = () => {
             planning DIY house projects, singing one-woman-broadway-shows in the
             car, or losing hours of time in a fantasy novel.
           </h3>
-          <h3 className='cta green'>
+          <div className='social-links'>
+              <a
+                href='https://drive.google.com/file/d/1UtdiiL--NJNihYME0shF8gruIukssw2p/view?usp=sharing'
+                target='_blank'
+                rel='noreferrer'
+              >
+                <img src='/resume.svg'/>
+                <p>resume</p>
+              </a>
             <a
               href='https://drive.google.com/file/d/1UtdiiL--NJNihYME0shF8gruIukssw2p/view?usp=sharing'
               target='_blank'
               rel='noreferrer'
             >
-              View My Resume
+              <img src='/LinkedIN.svg' />
+              <p>linkedin</p>
+
             </a>
-          </h3>
+            <a
+              href='https://drive.google.com/file/d/1UtdiiL--NJNihYME0shF8gruIukssw2p/view?usp=sharing'
+              target='_blank'
+              rel='noreferrer'
+            >
+              <img src='/Instagram.svg' />
+              <p>instagram</p>
+
+            </a>
+            <a
+              href='https://drive.google.com/file/d/1UtdiiL--NJNihYME0shF8gruIukssw2p/view?usp=sharing'
+              target='_blank'
+              rel='noreferrer'
+            >
+              <img src='/Mail.svg' />
+              <p>email</p>
+
+            </a>
+          </div>
         </div>
       </div>
     </div>
