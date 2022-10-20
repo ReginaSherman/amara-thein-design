@@ -15,7 +15,7 @@ const Hero = () => {
           className='hero__container-img'
           style={{
             backgroundImage: `url(${bg.src})`,
-            backgroundColor: 'rgba(0, 0, 0, 0.65)',
+            backgroundColor: 'rgba(0, 0, 0, 0.55)',
             backgroundBlendMode: 'multiply',
             backgroundSize: 'cover',
             width: '100vw',
