@@ -46,122 +46,72 @@
 
 .about {
     &__container {
+        display: flex;
+        font-size: 115px;
+        margin: 0 auto;
+        padding: 100px 0;
+
+        .image-container {
+            max-width: 700px;
+            height: auto;
+            padding: 0 25px;
+
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                filter: grayscale(100%) drop-shadow(0px 6px 20px rgba(0, 0, 0, 0.5));
+            }
+        }
+
         &-bg {
             position: relative;
             background-attachment: fixed;
             background-position: center;
             background-repeat: no-repeat;
         }
-        &-txt {
-            position: absolute;
-            display: flex;
-            font-family: "Montserrat Alternates";
-            color: $dark-green;
-            font-size: 115px;
-            margin: 0 auto;
+    }
+
+    &__txt {
+        display: flex;
+        flex-direction: column;
+        padding: 0 50px;
+
+        h2 {
+            font-size: 24px;
         }
 
-        .headshot-container {
-            position: relative;
+        h3 {
+            font-size: 16px;
+            line-height: 24px;
+            padding: 0;
+            text-align: left;
+        }
+
+        .cta {
+            background-color: $dark-green;
+            padding: 20px;
+            border-radius: 10px;
+            border: none;
+
+            a {
+                color: $off-white;
+                font-weight: 400px;
+            }
         }
     }
 }
 
-.apple-pie-day {
-    &__container {
-        background-color: $dark-green;
-
-        &-txt {
-            color: #faf9f6;
-            font-size: 48px;
-        }
-    }
-}
-
-.company-event {
-    &__container {
-        background-color: $off-white;
-
-        &-txt {
-            color: #faf9f6;
-            font-size: 48px;
-        }
-    }
-}
-
-.great-iowa-homes {
-    &__container {
-        background-color: $dark-green;
-
-        &-txt {
-            color: #faf9f6;
-            font-size: 48px;
-        }
-    }
-}
-
-.ir-agent {
-    &__container {
-        background-color: $off-white;
-
-        &-txt {
-            color: #faf9f6;
-            font-size: 48px;
-        }
-    }
-}
-
-.ir-foundation {
-    &__container {
-        background-color: $dark-green;
-
-        &-txt {
-            color: #faf9f6;
-            font-size: 48px;
-        }
-    }
-}
-
-.ringer-golf {
-    &__container {
-        background-color: $off-white;
-
-        &-txt {
-            color: #faf9f6;
-            font-size: 48px;
-        }
-    }
-}
-
-.school-supply-drive {
-    &__container {
-        background-color: $dark-green;
-
-        &-txt {
-            color: #faf9f6;
-            font-size: 48px;
-        }
-    }
-}
-
-.united-way {
-    &__container {
-        background-color: $off-white;
-
-        &-txt {
-            color: #faf9f6;
-            font-size: 48px;
-        }
-    }
-}
 .contact {
     &__container {
+        height: 20vw;
+        display: flex;
+        flex-direction: column;
         &-txt {
             position: absolute;
             font-family: "Montserrat Alternates";
-            color: rgb(15, 20, 7);
-            font-size: 48px;
             margin: 0 auto;
+
         }
     }
 }
