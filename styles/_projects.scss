@@ -1,5 +1,12 @@
 .project-txt {
     text-align: center;
+
+    h2 {
+
+        @include mobile {
+            font-size: 24px;
+        }
+    }
 }
 
 .project-samples {
@@ -12,6 +19,10 @@
     &__card {
         position: relative;
         width: 30vw;
+
+        @include mobile {
+            width: 90vw;
+        }
 
 
         img {
@@ -27,5 +38,9 @@
                 transition: 0.5s ease-in;
             }
         }
+    }
+
+    @include mobile {
+        flex-direction: column;
     }
 }
