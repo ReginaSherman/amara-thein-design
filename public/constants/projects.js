@@ -1,6 +1,6 @@
 export const projects = [
   {
-    title: 'Branding',
+    title: 'Branding Packages',
     samples: {
       sample1: {
         name: 'Iowa Realty Agent Branding',
@@ -24,7 +24,7 @@ export const projects = [
     key: 1
   },
   {
-    title: 'Booklets',
+    title: 'Other Work',
     samples: {
       sample1: {
         name: 'Ad Design',
