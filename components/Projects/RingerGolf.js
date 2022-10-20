@@ -18,7 +18,7 @@ const RingerGolf = () => {
         <div className='ringer-golf__txt'>
         <h2 className='green'>Ringer Golf</h2>
         <h3 className='green'>
-          Let's build some happy little clouds up here. Little trees and bushes
+          Lets build some happy little clouds up here. Little trees and bushes
           grow however makes them happy. Just a happy little shadow that lives
           in there.
         </h3>

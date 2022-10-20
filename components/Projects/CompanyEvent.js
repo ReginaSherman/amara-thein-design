@@ -17,7 +17,7 @@ const CompanyEvent = () => {
       <div className='company-event__container container'>
         <h2 className='green'>Company Event</h2>
         <h3 className='green'>
-          Let's build some happy little clouds up here. Little trees and bushes
+          Lets build some happy little clouds up here. Little trees and bushes
           grow however makes them happy. Just a happy little shadow that lives
           in there.
         </h3>
