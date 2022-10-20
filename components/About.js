@@ -42,6 +42,7 @@ const About = () => {
             <a
               href='https://drive.google.com/file/d/1UtdiiL--NJNihYME0shF8gruIukssw2p/view?usp=sharing'
               target='_blank'
+              rel='noreferrer'
             >
               View My Resume
             </a>
