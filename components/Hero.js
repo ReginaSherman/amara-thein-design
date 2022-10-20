@@ -25,7 +25,7 @@ const Hero = () => {
         ></div>
         <div className='hero__container-txt'>
             <Image className='otter' src={otter} width={200} height={200}/>
-          <h1><strong className='strong'>AmaraUtter</strong>Designs</h1>
+          <h1><strong className='strong'>AmaraUtter</strong>Design</h1>
         </div>
       </div>
     </div>

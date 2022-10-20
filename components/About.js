@@ -48,7 +48,7 @@ const About = () => {
                 <p>resume</p>
               </a>
             <a
-              href='https://drive.google.com/file/d/1UtdiiL--NJNihYME0shF8gruIukssw2p/view?usp=sharing'
+              href='https://www.linkedin.com/in/amarathein/'
               target='_blank'
               rel='noreferrer'
             >
@@ -57,7 +57,7 @@ const About = () => {
 
             </a>
             <a
-              href='https://drive.google.com/file/d/1UtdiiL--NJNihYME0shF8gruIukssw2p/view?usp=sharing'
+              href='https://www.instagram.com/amara.utter/?igshid=YmMyMTA2M2Y%3D'
               target='_blank'
               rel='noreferrer'
             >
@@ -66,7 +66,7 @@ const About = () => {
 
             </a>
             <a
-              href='https://drive.google.com/file/d/1UtdiiL--NJNihYME0shF8gruIukssw2p/view?usp=sharing'
+              href='https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&to=amara.utter@gmail.com'
               target='_blank'
               rel='noreferrer'
             >
