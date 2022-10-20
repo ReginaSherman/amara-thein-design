@@ -10,7 +10,7 @@ export const projects = [
       sample2: {
         image: '/key-images/GIH - Key Image.jpg',
         link:
-          'https://drive.google.com/file/d/10B65rZsnDyAgNcugj3aPioDc9PiTe52C/view?usp=sharing',
+          'https://drive.google.com/file/d/12HObr0w7oS3zqlHXExYhhZeNOulbu7hu/view?usp=sharing',
       },
       sample3: {
         image: '/key-images/Ringer Golf - Key image.jpg',
