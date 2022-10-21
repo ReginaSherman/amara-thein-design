@@ -48,21 +48,12 @@ const About = () => {
                 <p>resume</p>
               </a>
             <a
-              href='https://www.linkedin.com/in/amarathein/'
+              href='http://www.linkedin.com/in/amarautter'
               target='_blank'
               rel='noreferrer'
             >
               <img src='/LinkedIN.svg' />
               <p>linkedin</p>
-
-            </a>
-            <a
-              href='https://www.instagram.com/amara.utter/?igshid=YmMyMTA2M2Y%3D'
-              target='_blank'
-              rel='noreferrer'
-            >
-              <img src='/Instagram.svg' />
-              <p>instagram</p>
 
             </a>
             <a
